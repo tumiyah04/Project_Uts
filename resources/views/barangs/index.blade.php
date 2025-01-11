@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container" style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<div class="container" style="padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 style="color: #4CAF50;">Daftar Barang</h2>
-        <a href="{{ route('barangs.create') }}" class="btn btn-success" style="background-color: #4CAF50; border-color: #4CAF50;">Tambah Barang</a>
+        <h2 style="color: white ;">Daftar Barang</h2>
+        <a href="{{ route('barangs.create') }}" class="btn btn-success" style="background-color: #4CAF50; border-color: #4CAF50;">Input Barang</a>
     </div>
 
     @if($barangs->isEmpty())
